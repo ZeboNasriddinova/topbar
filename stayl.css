@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topbar{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 50px;
+    box-shadow: 0 5px 10px 5px silver;
+}
+.topbar .topbar-logo{
+    height: 60px;
+
+}
+.topbar-logo img{
+    height: 100%;
+}
+.navbar a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px lime;
+}
+.navbar a:hover{
+    color: rgba(0, 255, 255, 0.664);
+}
+button{
+    background-color: rgba(0, 255, 255, 0.543);
+    border-radius: 100px;
+    padding: 8px 20px;
+    color: white;
+    box-shadow: 0 0 5px 5px aqua;
+}
+button:hover{
+    background-color: #555;
+    color: rgba(0, 255, 255, 0.758);
+}
